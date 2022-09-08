@@ -1,0 +1,32 @@
+.info__title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    line-height: 35px;
+    margin: 105px 180px 53px 180px;
+    text-align: center;
+    font-weight: 300;
+}
+
+.info__title-2 {
+    font-family: 'Roboto', sans-serif;
+    padding-left: 30px;
+    font-size: 18px;
+    line-height: 14px;
+    margin: 0px 0px 5px 0px;
+}
+
+.info__title-3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 14px;
+    margin: 0px 0px 5px 0px;
+}
+
+.info__title-4 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 35px;
+    margin: 105px 0px 62px 0px;
+    text-align: center;
+}

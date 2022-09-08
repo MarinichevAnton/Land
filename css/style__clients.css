@@ -1,0 +1,12 @@
+.clients_block {
+    background-color: #f9f9f9;
+}
+
+.clients__zag {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    text-align: center;
+    padding: 67px 0px 64px 0px;
+
+}

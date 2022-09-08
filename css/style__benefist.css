@@ -1,0 +1,39 @@
+.benefist__zag {
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    padding: 100px 0px 60px 0px;
+}
+
+.benefist__all {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 111px;
+}
+
+.benefist__text {
+    font-family: 'Roboto', sans-serif;
+    color: #585858;
+    padding-left: 35px;
+    font-size: 16px;
+    text-align: center;
+    min-width: 80px;
+    max-width: 190px;
+}
+
+.benefist__1 a {
+    padding-left: 60px;
+}
+
+.benefist__2 a {
+    padding-left: 70px;
+}
+
+.benefist__3 a {
+    padding-left: 50px;
+}
+
+.benefist__4 a {
+    padding-left: 40px;
+}

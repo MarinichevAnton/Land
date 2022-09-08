@@ -1,0 +1,110 @@
+.slideshow-container {
+    position: relative;
+    margin: auto;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    margin-right: 350px;
+    padding: 9px 10px 30px;
+    color: #2b5689;
+    font-weight: bold;
+    font-size: 42px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+}
+
+.prev {
+    background: 
+    url(../img/left.png) no-repeat;
+    padding: 9px;
+}
+
+.next {
+    position: absolute;
+    margin-left: 1100px;
+    border-radius: 3px 0 0 3px;
+    background: 
+    url(../img/right.png) no-repeat;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.text__slider {
+    color: #000125;
+    font-size: 30px;
+    padding: 38px 0px 52px 0px;
+    max-width: 591px;
+    max-height: 218px;
+    position: absolute;
+    top: 35%;
+    background: 
+    url(../img/slider-fon2.png) no repeat;
+    text-align: center;
+    margin-left: 100px;
+}
+
+.text__slider-1 {
+    font-family: 'Roboto', sans-serif;
+    color: #000125;
+    font-size: 30px;
+    top: 50%;
+    text-align: center;
+    line-height: 30px;
+font-weight: bolder;
+}
+
+.text__slider-2 {
+    font-family: 'Roboto', sans-serif;
+    color: #000800;
+    font-size: 20px;
+    padding: 30px 0px 31px 45px;
+    top: 50%;
+    text-align: left;
+}
+
+.dot-container {
+    position: absolute;
+    top: 80%;
+    padding-left: 100px;
+}
+
+.dot {
+    border: 2px solid #c7c6c9;
+    cursor: pointer;
+    height: 14px;
+    width: 14px;
+    margin: 0 11px;
+    background-color: #fafafc;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    max-width: 169px;
+
+}
+
+.active, .dot:hover {
+    background-color: #d0d0d0;
+}
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+    from {opacity: 0}
+    to {opacity: 1}
+}
+
+@keyframes fade {
+    from {opacity: 0}
+    to {opacity: 1}
+}

@@ -1,0 +1,111 @@
+.footer_back-color {
+    background-color: #e3e3e3;
+    padding-top: 56px;
+}
+
+.footer {
+    background-color: #ffffff;
+    padding: 30px 0px 17px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.footer__content-inner{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.footer_back-color {
+    display: block;
+    justify-content: center;
+    position: relative;
+}
+
+.footer__logo-2 {
+    display: block;
+    position: absolute;
+}
+
+.footer__phone {
+    font-weight: bolder;
+}
+
+.elements-2 {
+    padding-left: 284px;
+}
+
+
+.footer-2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 0px 33px 0px;
+}
+
+.fotter__text {
+    font-family: 'Open Sans', sans-serif;
+    color: #979797;
+    font-weight: 100;
+    padding-top: 5px;
+    padding-right: 92px;
+    font-size: 11px;
+}
+
+.contacts-1 {
+    margin-left: 18px;
+}
+
+.footer__production {
+    margin-left: 10px;
+}
+
+.seti__container ul{
+    display: flex;
+    justify-content: start;
+    min-width: 22px;
+    min-height: 22px;
+    padding-left: 3px;
+}
+
+.soc__seti, .facebook {
+    max-width: 30px;
+}
+
+.facebook, .vk, .odnoklassniki, .youtube, .instagram {
+    fill: #9b9b9b;
+    padding: 0px 0px 0px 8px;
+}
+
+.facebook:hover, .vk:hover, .odnoklassniki:hover, .youtube:hover, .instagram:hover {
+    fill: #00aeef;
+    padding: 0px 0px 0px 8px;
+}
+
+.logotip__1 {
+    padding: 10px 0px 0px 13px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24.58px;
+    color: #00aeef;
+    letter-spacing: 4px;
+}
+
+.logotip__2 {
+    display: block;
+    color: #8d8d8d;
+    font-family: font-family: 'Roboto', sans-serif;
+    font-size: 9px;
+    letter-spacing: 0px;
+    padding-top: 5px; 
+}
+
+.menu__footer li {
+    display: inline-block;
+    position: relative;
+    padding: 6px 50px;
+}
+
+.menu__footer-2 li {
+    display: inline-block;
+    position: relative;
+    padding: 6px 45px;
+}
